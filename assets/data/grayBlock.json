@@ -1,0 +1,34 @@
+[
+    {
+        "img":{
+            "src":"assets/images/feature-1.png",
+            "alt":"Feature 1"
+        },
+        "header":"Fast delivery",
+        "description":"We delivere fast"
+    },
+    {
+        "img":{
+            "src":"assets/images/feature-2.png",
+            "alt":"Feature 2"
+        },
+        "header":"Free shipping",
+        "description":"Some of our products are delivered free"
+    },
+    {
+        "img":{
+            "src":"assets/images/feature-3.png",
+            "alt":"Feature 3"
+        },
+        "header":"Best quality",
+        "description":"High quality of our products"
+    },
+    {
+        "img":{
+            "src":"assets/images/feature-4.png",
+            "alt":"Feature 4"
+        },
+        "header":"24/7 Customer suport",
+        "description":"You can contact us everytime"
+    }
+]
