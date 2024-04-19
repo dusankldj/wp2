@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <link rel="icon" href="assets/images/fevicon/fevicon2.png" type="image/png" />
+  <link rel="stylesheet" type="text/css" href="assets/css/mojCSS.css"/>
+  <meta name="keywords" content="WatchWorks Shop Watch Contact Email Message" />
+  <meta name="description" content="This is page about contact information and form." />
+
+  <title>WatchWorks</title>
+
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css" />
+
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+  <!-- font awesome style -->
+  <link href="assets/css/font-awesome.min.css" rel="stylesheet" />
+
+  <!-- Custom styles for this template -->
+  <link href="assets/css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="assets/css/responsive.css" rel="stylesheet" />
+
+</head>
+
+<body class="sub_page">
+
+  <div class="hero_area">
+    <!-- header section strats -->
+    <header class="header_section">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg custom_nav-container ">
+          <a class="navbar-brand" href="index.html">
+            <img src="assets/images/Logo/logo.png" alt="Logo"/><!--width:180px height:70px-->
+          </a>
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class=""> </span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav " id="navigation">
+             <!--Dinamicki ispisana navigacija-->
+            </ul>
+            <div class="user_optio_box mx-2">
+              <a href="cart.html" class="text-dark">
+                <i class="fa badge fa-lg" value="" class="korpaIkona">&#xf07a;</i>
+              </a>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- end header section -->
+  </div>
+
+
+
+
+  <!--Contact section-->
+  <section>
+    <div class="container my-5">
+      <h2 class="text-center">Contact us</h2>
+      <div class="container d-lg-flex justify-content-between">
+          <div class="my-5 col-lg-6 mx-2"> 
+            <form action="#forma" method="GET" id="forma">
+              <div class="mb-3">
+                <label for="ime" class="form-label zelena">Name & Surname</label>
+                <input type="text" class="form-control ljubicasta" id="fullName">
+                <p class="text-danger font-italic py-2 d-none">Invalid Name & Surname</p>
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label zelena">Email</label>
+                <input type="email" class="form-control ljubicasta" id="email">
+                <p class="text-danger font-italic py-2 d-none">Invalid Email adress</p>
+              </div>
+              <div class="mb-3">
+                <label for="ime" class="form-label zelena">Phone number</label>
+                <input type="text" class="form-control ljubicasta" id="phoneNumber">
+                <p class="text-danger font-italic py-2 d-none">Invalid phone number</p>
+              </div>
+              <div class="mb-3">
+                <label class="form-label zelena">Gender</label>
+                <div class="form-check">
+                  <input class="form-check-input " type="radio" name="gender" id="male" value="male">
+                  <label class="form-check-label ljubicasta" for="muski">
+                    Male
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="gender" id="female" value="female">
+                  <label class="form-check-label ljubicasta" for="zenski">
+                    Female
+                  </label>
+                </div>
+                <p class="text-danger font-italic py-2 d-none" id="errorGender">Gender is mandatory</p>
+              </div>
+              <div class="mb-3">
+                <label for="opcije" class="form-label zelena">Country</label><br/>
+                <select class="form-control ljubicasta" id="opcije">
+                  <!--Dinamicki ispis svih evropskih drzava-->
+                </select>
+                <p class="text-danger font-italic py-2 d-none">Country is mandatory</p>
+              </div>
+              <div class="mb-3">
+                <label for="poruka" class="form-label zelena">Message</label>
+                <textarea class="form-control ljubicasta" id="message" rows="4"></textarea>
+                <p class="text-danger font-italic py-2 d-none">Your message is too short</p>
+              </div>
+              <input type="submit" value="Submit" id="submitBtn" class="ljubicasta-poz text-white py-2 px-3 rounded">
+            </form>
+          </div>
+  
+          <div class="my-5 col-lg-6 mx-2"> 
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2464.257721675128!2d-4.307265424268494!3d51.85625068516019!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486ee6d33ebe75e9%3A0x5a20fa96b79000ee!2s42%20Spilman%20St%2C%20Carmarthen%20SA31%201LQ%2C%20UK!5e0!3m2!1sen!2srs!4v1712785740821!5m2!1sen!2srs" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> <!-- Izmijenjena širina i dodan stil "width: 100%;" -->
+            <p class="text-center font-italic">Our location</p>
+          </div>
+      </div>
+    </div>
+  </section>
+  <!--End of contact section-->
+  
+
+  <!--Modal-->
+  <div class="modal fade" id="errorModal" tabindex="-1" aria-labelledby="customModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="customModalLabel">Error</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p id="modalMessage"><!--Dinamicki ispisana poruka--></p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary ljubicasta-poz border-0" data-bs-dismiss="modal" id="closeModal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--End modal-->
+
+  <!-- info section -->
+  <section class="info_section layout_padding2">
+    <div class="container">
+      <div class="info_logo">
+        <h2>
+          WatchWorks
+        </h2>
+      </div>
+      <div class="row">
+
+        <div class="col-md-3">
+          <h5>
+            About Shop
+          </h5>
+          <div class="info_contact" id="footerAbout"> 
+            <!--Dinamicki ispisane ikonice u about sekciji futera-->
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="info_info">
+            <h5>
+              Foundation
+            </h5>
+            <p>
+              Founded by Jimmy Black in 1932, our watch store has stood the test of time, offering timeless elegance and expertise for generations. Jimmy Black's vision and passion for horology continue to inspire our commitment to excellence in the world of watches.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="info_insta">
+            <h5>
+              Our partners
+            </h5>
+            <div class="insta_container">
+              <div class="row m-0" id="partners">
+                <!--Dinamicki ispisane partnerske kompanije-->
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="info_form ">
+            <h5>
+              Social media
+            </h5>
+            <div class="social_box" id="social-media">
+              <!--Dinamicki ispisane ikonice za drustvene mreze-->
+            </div>
+          </div>
+          
+          <div class="info_form mt-5">
+            <h5>
+              Working time
+            </h5>
+            <div>
+              <p>Mon-Fri&nbsp;&nbsp;&nbsp;8:00 - 16:00 <br/>Sat &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 10:00 - 15:00</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end info_section -->
+
+  <!-- footer section -->
+  <section class="footer_section">
+    <div class="container">
+      <div class="row contai">
+        <div class="col-sm-4 d-flex justify-content-start align-items-center">
+          <a href="sitemap.xml" class="text-dark" target="_blank">
+          <i class="fa fa-sitemap" aria-hidden="true"></i></a>
+        </div>
+        <div class="col-sm-4 d-flex justify-content-center align-items-center" id="founded">
+          <!-- Dinamički ispisan sadržaj s trenutnom godinom -->
+        </div>
+        <div class="col-sm-4 d-flex justify-content-end align-items-center">
+          <a href="documentation.pdf" class="text-dark" target="_blank"><i class="fa fa-file-text" aria-hidden="true"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- footer section -->
+
+  <!-- jQery -->
+  <script type="text/javascript" src="assets/js/jquery-3.4.1.min.js"></script>
+  <!-- popper js -->
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <!-- bootstrap js -->
+  <script type="text/javascript" src="assets/js/bootstrap.js"></script>
+  <!-- custom js -->
+  <script type="text/javascript" src="assets/js/custom.js"></script>
+  <!-- Google Map -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap">
+  </script>
+  <!-- End Google Map -->
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>

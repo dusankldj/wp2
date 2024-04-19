@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <link rel="icon" href="assets/images/fevicon/fevicon2.png" type="image/png" />
+  <link rel="stylesheet" type="text/css" href="assets/css/mojCSS.css"/>
+  <meta name="keywords" content="WatchWorks Author Watch Shop Dusan Djokic" />
+  <meta name="description" content="This is page about author of WatchWorks website." />
+
+  <title>WatchWorks</title>
+
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css" />
+
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+  <!-- font awesome style -->
+  <link href="assets/css/font-awesome.min.css" rel="stylesheet" />
+
+  <!-- Custom styles for this template -->
+  <link href="assets/css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="assets/css/responsive.css" rel="stylesheet" />
+
+</head>
+
+<body class="sub_page">
+
+  <div class="hero_area">
+    <!-- header section strats -->
+    <header class="header_section">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg custom_nav-container ">
+          <a class="navbar-brand" href="index.html">
+            <img src="assets/images/Logo/logo.png" alt="Logo"/><!--width:180px height:70px-->
+          </a>
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class=""> </span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav " id="navigation">
+             <!--Dinamicki ispisana navigacija-->
+            </ul>
+            <div class="user_optio_box mx-2">
+              <!--<a href="" class="text-dark" >
+                <i class="fa fa-user-circle" aria-hidden="true"></i>
+              </a>-->
+              <a href="cart.html" class="text-dark">
+                <i class="fa badge fa-lg" value="" class="korpaIkona">&#xf07a;</i>
+              </a>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- end header section -->
+  </div>
+
+  <!--Author personal info-->
+  <section>
+    <div class="container my-5">
+      <h2 class="text-center">Author of this website</h2>
+      <div class="row justify-content-around my-5">
+        <div class="col-12 col-md-6">
+          <p>Name: Dusan Djokic</p>
+          <p>Index: 131/22</p>
+          <p id="myAge"><!--JavaScript izracunava moje godine--></p>
+          <p>College: ICT</p>
+          <p>Place of living: Belgrade, Serbia</p>
+        </div>
+        
+        <div class="col-12 col-md-6">
+          <img src="assets/images/me.jpeg" alt="Author" class="rounded"/>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--End author personal info-->
+
+  <!--Modal-->
+  <div class="modal fade" id="errorModal" tabindex="-1" aria-labelledby="customModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="customModalLabel">Error</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p id="modalMessage"><!--Dinamicki ispisana poruka--></p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary ljubicasta-poz border-0" data-bs-dismiss="modal" id="closeModal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--End modal-->
+
+  <!-- info section -->
+  <section class="info_section layout_padding2">
+    <div class="container">
+      <div class="info_logo">
+        <h2>
+          WatchWorks
+        </h2>
+      </div>
+      <div class="row">
+
+        <div class="col-md-3">
+          <h5>
+            About Shop
+          </h5>
+          <div class="info_contact" id="footerAbout"> 
+            <!--Dinamicki ispisane ikonice u about sekciji futera-->
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="info_info">
+            <h5>
+              Foundation
+            </h5>
+            <p>
+              Founded by Jimmy Black in 1932, our watch store has stood the test of time, offering timeless elegance and expertise for generations. Jimmy Black's vision and passion for horology continue to inspire our commitment to excellence in the world of watches.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="info_insta">
+            <h5>
+              Our partners
+            </h5>
+            <div class="insta_container">
+              <div class="row m-0" id="partners">
+                <!--Dinamicki ispisane partnerske kompanije-->
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="info_form ">
+            <h5>
+              Social media
+            </h5>
+            <div class="social_box" id="social-media">
+              <!--Dinamicki ispisane ikonice za drustvene mreze-->
+            </div>
+          </div>
+          
+          <div class="info_form mt-5">
+            <h5>
+              Working time
+            </h5>
+            <div>
+              <p>Mon-Fri&nbsp;&nbsp;&nbsp;8:00 - 16:00 <br/>Sat &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 10:00 - 15:00</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end info_section -->
+
+  <!-- footer section -->
+  <section class="footer_section">
+    <div class="container">
+      <div class="row contai">
+        <div class="col-sm-4 d-flex justify-content-start align-items-center">
+          <a href="sitemap.xml" class="text-dark" target="_blank">
+          <i class="fa fa-sitemap" aria-hidden="true"></i></a>
+        </div>
+        <div class="col-sm-4 d-flex justify-content-center align-items-center" id="founded">
+          <!-- Dinamički ispisan sadržaj s trenutnom godinom -->
+        </div>
+        <div class="col-sm-4 d-flex justify-content-end align-items-center">
+          <a href="documentation.pdf" class="text-dark" target="_blank"><i class="fa fa-file-text" aria-hidden="true"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- footer section -->
+
+  <!-- jQery -->
+  <script type="text/javascript" src="assets/js/jquery-3.4.1.min.js"></script>
+  <!-- popper js -->
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <!-- bootstrap js -->
+  <script type="text/javascript" src="assets/js/bootstrap.js"></script>
+  <!-- custom js -->
+  <script type="text/javascript" src="assets/js/custom.js"></script>
+  <!-- Google Map -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap">
+  </script>
+  <!-- End Google Map -->
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
