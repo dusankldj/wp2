@@ -1,0 +1,119 @@
+[
+    {
+        "id":1,
+        "name":"Casio",
+        "categoryID":1,
+        "price":200,
+        "shipping":false,
+        "description":"Casio watches are renowned for their durability, precision, and innovative features. They offer a wide range of styles, from classic designs to modern digital models, making them suitable for every occasion. Whether you're looking for a sporty companion or a sleek timepiece for formal events, Casio has something for everyone.",
+        "img":{
+            "src":"assets/images/w1.png",
+            "alt":"Watch No.1"
+        },
+        "grade":4
+    },
+    {
+        "id":2,
+        "name":"Daniel Craig",
+        "categoryID":1,
+        "price":100,
+        "shipping":false,
+        "description":"Daniel Craig watches embody sophistication and luxury. Inspired by the iconic actor's timeless style, these watches exude elegance and refinement. With meticulous craftsmanship and attention to detail, each Daniel Craig timepiece is a statement of impeccable taste and class.",
+        "img":{
+            "src":"assets/images/w2.png",
+            "alt":"Watch No.2"
+        },
+        "grade":3.5
+    },
+    {
+        "id":3,
+        "name":"Orient",
+        "categoryID":2,
+        "price":450,
+        "shipping":true,
+        "description":"Orient watches are celebrated for their blend of traditional craftsmanship and contemporary design. The Model 1 series showcases the brand's commitment to quality and reliability. Featuring automatic movements and elegant aesthetics, Orient watches offer a harmonious balance of style and functionality.",
+        "img":{
+            "src":"assets/images/w3.png",
+            "alt":"Watch No.3"
+        },
+        "grade":5
+    },
+    {
+        "id":4,
+        "name":"Orient",
+        "categoryID":2,
+        "price":600,
+        "shipping":true,
+        "description":"The Orient Model 2 series represents the brand's innovative approach to watchmaking. These watches feature modern complications and bold designs, appealing to those who appreciate cutting-edge technology and unique aesthetics. With superior performance and distinctive looks, Orient Model 2 watches stand out in any collection.",
+        "img":{
+            "src":"assets/images/w4.png",
+            "alt":"Watch No.4"
+        },
+        "grade":5
+    },
+    {
+        "id":5,
+        "name":"Omega",
+        "categoryID":1,
+        "price":250,
+        "shipping":false,
+        "description":"Omega watches are synonymous with luxury and excellence. As a prestigious Swiss brand, Omega has a rich heritage of crafting exceptional timepieces. From the iconic Speedmaster to the elegant Constellation, Omega offers a range of collections that cater to diverse tastes and preferences. With precision engineering and timeless appeal, Omega watches are a symbol of sophistication and status. WatchWorks proudly presents these exceptional timepieces, ensuring customers have access to the finest in watchmaking.",
+        "img":{
+            "src":"assets/images/w5.png",
+            "alt":"Watch No.5"
+        },
+        "grade":4
+    },
+    {
+        "id":6,
+        "name":"Moto",
+        "categoryID":3,
+        "price":400,
+        "shipping":true,
+        "description":"Smart watch that will fully complete your style.",
+        "img":{
+            "src":"assets/images/w6.png",
+            "alt":"Watch No.6"
+        },
+        "grade":4.5
+    },
+    {
+        "id":7,
+        "name":"Seiko",
+        "categoryID":1,
+        "price":570,
+        "shipping":true,
+        "description":"Standard watch that will fully complete your style.",
+        "img":{
+            "src":"assets/images/w7.png",
+            "alt":"Watch No.7"
+        },
+        "grade":5
+    },
+    {
+        "id":8,
+        "name":"Seiko",
+        "categoryID":2,
+        "price":850,
+        "shipping":true,
+        "description":"Elegant watch that will fully complete your style.",
+        "img":{
+            "src":"assets/images/w8.png",
+            "alt":"Watch No.8"
+        },
+        "grade":5
+    },
+    {
+        "id":9,
+        "name":"Luminox",
+        "categoryID":1,
+        "price":300,
+        "shipping":false,
+        "description":"Standard watch that will fully complete your style.",
+        "img":{
+            "src":"assets/images/w9.png",
+            "alt":"Watch No.9"
+        },
+        "grade":4
+    }
+]

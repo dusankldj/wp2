@@ -1,0 +1,20 @@
+[
+    {
+        "icon":"map-pin",
+        "link":"https://maps.app.goo.gl/SzBsrc9JgzTGjQM88",
+        "text":"42 Spilman Street",
+        "text2":"Location"
+    },
+    {
+        "icon":"mobile fa-2x",
+        "link":"https://web.whatsapp.com/",
+        "text":"+447890123456",
+        "text2":"Phone"
+    },
+    {
+        "icon":"envelope",
+        "link":"https://accounts.google.com/InteractiveLogin/signinchooser?continue=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&emr=1&followup=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&osid=1&passive=1209600&service=mail&ifkv=ARZ0qKIAzocGTLg5qwJwXI_LMBfZ8OpsiyOpSwnEL8IFWWs3NFQ9_bNHZ1M-TsNE477mmWk9QvBk&theme=mn&ddm=0&flowName=GlifWebSignIn&flowEntry=ServiceLogin",
+        "text":"ww@watchworks.com",
+        "text2":"Email"
+    }
+]

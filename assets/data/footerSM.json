@@ -1,0 +1,18 @@
+[
+    {
+        "icon":"facebook",
+        "link":"https://www.facebook.com/login/"
+    },
+    {
+        "icon":"twitter",
+        "link":"https://twitter.com/i/flow/login"
+    },
+    {
+        "icon":"instagram",
+        "link":"https://www.instagram.com/accounts/login/?hl=en"
+    },
+    {
+        "icon":"snapchat-ghost",
+        "link":"https://accounts.snapchat.com/accounts/v2/login"
+    }
+]

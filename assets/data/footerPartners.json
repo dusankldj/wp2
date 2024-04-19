@@ -1,0 +1,44 @@
+[
+    {
+        "img":{
+            "src":"rolex.png",
+            "alt":"Rolex Logo"
+        },
+        "link":"https://www.rolex.com/en-us"
+    },
+    {
+        "img":{
+            "src":"casio.png",
+            "alt":"Casio Logo"
+        },
+        "link":"https://www.rolex.com/en-us"
+    },
+    {
+        "img":{
+            "src":"omega.png",
+            "alt":"Omega Logo"
+        },
+        "link":"https://www.omegawatches.com/"
+    },
+    {
+        "img":{
+            "src":"festina.png",
+            "alt":"Festina Logo"
+        },
+        "link":"https://festina.com/en-GB"
+    },
+    {
+        "img":{
+            "src":"fossil.png",
+            "alt":"Fossil Logo"
+        },
+        "link":"https://www.fossil.com/en-us/"
+    },
+    {
+        "img":{
+            "src":"swatch.png",
+            "alt":"Swatch Logo"
+        },
+        "link":"https://www.swatch.com/en-en/"
+    }
+]
